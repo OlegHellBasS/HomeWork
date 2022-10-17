@@ -1,0 +1,24 @@
+h1{
+    color: #ff0026;
+    background: #ffd9a6;
+}
+p{
+    color: #ff0026;
+    background: #ffd9a6;
+}
+h2{
+    color: #ff0026;
+    background: #ffd9a6;
+}
+li{
+    color: #ff0026;
+    background: #ffd9a6;
+}
+img{
+    width: 200px;
+    height:400px;
+}
+h2:hover{
+    color: #ff0000;
+    background: #d1ff67;
+}
