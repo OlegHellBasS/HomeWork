@@ -1,0 +1,35 @@
+.q{
+    width: 900px;
+    height: 600px;
+    background: #06bbd3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin: auto;
+}
+.qq {
+    width: 400px;
+    height: 150px;
+    background:red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.qqq{
+    width: 100px;
+    height: 150px;
+    background: #fcfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qqqq{
+    width: 300px;
+    height: 150px;
+    background: #fcfdfd;
+}
+h2{
+    color: #fd9605;
+}
