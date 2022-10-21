@@ -1,0 +1,44 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    background: silver;
+}
+.box1{
+    width: 750px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccd6df;
+    margin-top: 50px;
+}
+.wind{
+    width: 100px;
+    height: 45px;
+    background: #102940;
+    margin-right: 450px;
+    border-radius: 10px;
+}
+.icon{
+    width: 30px;
+    height: 50px;
+    background: #ccd6df;
+    margin-top: 30px;
+}
+.fa-magnifying-glass{
+    width: 60px;
+    height: 60px;
+    color: #8489a9;
+}
+.fa-bars{
+    width: 60px;
+    height: 60px;
+    color: #848ba5;
+}
