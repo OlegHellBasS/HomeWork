@@ -8,16 +8,38 @@
     height: 800px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: silver;
 }
 .box1{
-    width: 750px;
+    width: 800px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #ccd6df;
     margin-top: 50px;
+}
+.box2{
+    width: 800px;
+    height: 350px;
+    background: #102a3f;
+}
+.box3{
+    width: 800px;
+    height: 150px;
+    background: #ccd6df;
+    display: flex;
+    justify-content: center;
+
+}
+.wind2{
+    width: 150px;
+    height: 150px;
+    background: #6a64df;
+    margin: -75px 10px;
+    border-radius: 10px;
 }
 .wind{
     width: 100px;
