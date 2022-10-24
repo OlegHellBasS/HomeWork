@@ -1,0 +1,59 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background: #fdfdfe;
+}
+.obg{
+    border: 1px solid black;
+}
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.card{
+    width: 330px;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px
+}
+.fa-star{
+font-size: 50px;
+    color: darkgoldenrod;
+}
+.tex{
+    width: 270px;
+    height: 150px;
+    text-align: center;
+}
+.clicker{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 375px;
+}
+a{
+    color: black;
+}
+
+
