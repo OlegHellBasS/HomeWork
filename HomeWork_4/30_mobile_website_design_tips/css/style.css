@@ -1,0 +1,120 @@
+body{
+     display: flex;
+    justify-content: center;
+}
+.wrap{
+    width: 800px;
+    height: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 5px;
+    column-gap: 1%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.bag{
+    background: #777777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lh{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 29%;
+    height: 100%;
+}
+.header{
+    width: 69%;
+    height: 100%;
+}
+.nav{
+    width: 29%;
+    height: 450px;
+}
+.ba{
+    width: 69%;
+    height: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bb{
+    width: 69%;
+    height: 150px;
+}
+.aa{
+    width: 29%;
+    height: 150px;
+}
+.tob{
+ width: 69%;
+ height: 600px;
+}
+.rp{
+    width: 29%;
+    height: 600px;
+}
+.st{
+    width: 29%;
+    height: 300px;
+}
+.str{
+    width: 29%;
+    height: 300px;
+    display: none;
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+
+    .wrap{
+        width: 100%;
+        height: 1600px;
+        align-content: center
+    }
+    .lh{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 29%;
+        height: 100%;
+    }
+    .header{
+        width: 69%;
+        height: 100%;
+    }
+    .nav{
+        width: 100%;
+        height: 200px;
+    }
+    .ba{
+        width: 100%;
+        height: 1100px;
+    }
+    .bb{
+        width: 69%;
+        height: 19%;
+    }
+    .aa{
+        width: 29%;
+        height: 19%;
+    }
+    .tob{
+        width: 100%;
+        height: 600px;
+    }
+    .rp{
+        width: 100%;
+        height: 270px;
+    }
+
+}
