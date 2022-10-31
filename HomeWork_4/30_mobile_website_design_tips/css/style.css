@@ -1,23 +1,22 @@
 body{
-     display: flex;
+    display: flex;
     justify-content: center;
 }
 .wrap{
-    width: 800px;
-    height: 950px;
+    width: 70%;
+    height: 1150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 5px;
     column-gap: 1%;
     border: 2px solid black;
-    box-sizing: border-box;
 }
 .bag{
     background: #777777;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .lh{
     width: 100%;
@@ -30,52 +29,75 @@ body{
     height: 100%;
 }
 .header{
-    width: 69%;
+    width: 70%;
     height: 100%;
 }
-.nav{
+.naw{
     width: 29%;
-    height: 450px;
+    height: 775px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.nawt{
+    width: 100%;
+    height: 440px;
+}
+.to{
+    width: 100%;
+    height: 160px;
 }
 .ba{
-    width: 69%;
+    width: 70%;
     height: 780px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .bb{
-    width: 69%;
-    height: 150px;
+    width: 70%;
+    height: 160px;
 }
 .aa{
     width: 29%;
-    height: 150px;
+    height: 160px;
 }
 .tob{
- width: 69%;
- height: 600px;
+ width: 70%;
+ height: 610px;
 }
 .rp{
     width: 29%;
-    height: 600px;
+    height: 610px;
 }
-.st{
-    width: 29%;
-    height: 300px;
+.non{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
 }
-.str{
-    width: 29%;
-    height: 300px;
+.none{
+    width: 49%;
+    height: 150px;
     display: none;
-
 }
-
+.footer{
+    width: 100%;
+    height: 100%;
+}
+b{
+    color: red;
+}
+h2{
+    color: white;
+}
 @media screen and (min-width: 0px) and (max-width: 1000px) {
 
     .wrap{
         width: 100%;
-        height: 1600px;
+        height: 2000px;
+        row-gap: 5px;
         align-content: center
     }
     .lh{
@@ -89,10 +111,17 @@ body{
         height: 100%;
     }
     .header{
-        width: 69%;
+        width: 70%;
         height: 100%;
     }
-    .nav{
+    .naw{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    .nawt{
         width: 100%;
         height: 200px;
     }
@@ -101,7 +130,7 @@ body{
         height: 1100px;
     }
     .bb{
-        width: 69%;
+        width: 70%;
         height: 19%;
     }
     .aa{
@@ -115,6 +144,28 @@ body{
     .rp{
         width: 100%;
         height: 270px;
+    }
+    .to{
+        width: 100%;
+        height: 175px;
+        display: none;
+    }
+    .non{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 8px;
+    }
+    .none{
+        width: 49%;
+        height: 200px;
+        display: flex;
+    }
+    .footer{
+        width: 100%;
+        height: 227px;
     }
 
 }
